@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\C# Development\\HAT_Use_Logger_MVC\\WebLogger\\WebLogger.csproj": {}
+  },
+  "projects": {
+    "F:\\C# Development\\HAT_Use_Logger_MVC\\ConsoleApp1\\ConsoleApp1.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\C# Development\\HAT_Use_Logger_MVC\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "F:\\C# Development\\HAT_Use_Logger_MVC\\ConsoleApp1\\ConsoleApp1.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\C# Development\\HAT_Use_Logger_MVC\\WebLogger\\WebLogger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C# Development\\HAT_Use_Logger_MVC\\WebLogger\\WebLogger.csproj",
+        "projectName": "WebLogger",
+        "projectPath": "F:\\C# Development\\HAT_Use_Logger_MVC\\WebLogger\\WebLogger.csproj",
+        "packagesPath": "C:\\Users\\AHirst\\.nuget\\packages\\",
+        "outputPath": "F:\\C# Development\\HAT_Use_Logger_MVC\\WebLogger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AHirst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\C# Development\\HAT_Use_Logger_MVC\\ConsoleApp1\\ConsoleApp1.csproj": {
+                "projectPath": "F:\\C# Development\\HAT_Use_Logger_MVC\\ConsoleApp1\\ConsoleApp1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
